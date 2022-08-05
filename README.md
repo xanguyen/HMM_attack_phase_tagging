@@ -8,11 +8,13 @@ https://nesg.ugr.es/nesg-ugr16/march.php#INI
 
 - Training :
 
-´python3 Main.py --action train --dataset traindataset --transition\_matrix A.csv --emission\_matrix B.csv´
+_python3 Main.py --action train --dataset traindataset --transition\_matrix A.csv --emission\_matrix B.csv_
 
 - Evaluation :
-´python3 Main.py --action eval --dataset evaldataset --transition\_matrix A.csv --emission\_matrix B.csv --output output.txt´
+
+_python3 Main.py --action eval --dataset evaldataset --transition\_matrix A.csv --emission\_matrix B.csv --output output.txt_
 
 - Test:
-´python3 Main.py --action test --dataset testdataset --transition\_matrix A.csv --emission\_matrix B.csv´
+
+_python3 Main.py --action test --dataset testdataset --transition\_matrix A.csv --emission\_matrix B.csv_
 
